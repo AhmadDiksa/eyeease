@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card product-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.badge-primary {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 10px;
+}
